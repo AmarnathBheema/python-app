@@ -266,5 +266,5 @@ if __name__ == '__main__':
     #     pass
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=6060)
+    app.run(debug=True, host='local host', port=9090)
     
